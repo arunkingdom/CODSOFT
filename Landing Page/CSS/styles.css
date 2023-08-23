@@ -45,7 +45,6 @@ header{
 
 .nav-list-mobile{
     display: none;
-
 }
 
 .nav-link{
@@ -53,7 +52,6 @@ header{
     font-size: 1.4rem;
     padding: 0 1rem;
     transition: opacity .5s;
-
 }
 
 .nav-link:hover{
@@ -103,9 +101,6 @@ header{
 .airpods-pro{
     background: url("../images/airpodspro_large.jpg");
 }
-
-
-
 
 /* Title styles */
 
@@ -172,8 +167,6 @@ header{
     margin-top: 1.6rem;
 }
 
-
-
 /* For styling side-by-side hero sections */
 
 .hero-container {
@@ -222,7 +215,7 @@ header{
     
   }
 
-/* Music cards styles */
+/* Music styles */
 
 .title-heading-music{
     height: 7.8rem;
@@ -266,7 +259,7 @@ header{
     width: 100%;
 }
 
-/* Music Cards styles */
+/* Subscription Cards styles */
 
 .section-subscription-offers {
     background-color: #fff;
@@ -305,7 +298,7 @@ header{
     padding: 0.3rem 0;
 }
 
-.icon-wrapper.button-music {
+.button-music {
     align-items: center;
     background-color: red;
     border-radius: 20px;
@@ -321,16 +314,20 @@ header{
     width: 12rem;
 }
 
-.icon-wrapper.button-music:hover {
+.button-music.button-music-middle {
+    margin: 1rem auto;
+    padding: 0.8rem 2rem;
+}
+
+.button-music:hover {
     background-color: #005ba1;
 }
 
-
-.typography-offers-eyebrow{
+.typography-offers{
     font-size: 2.4rem;
 }
 
-.typography-headline-reduced{
+.typography-headline{
     font-size: 3.6rem;
 }
 
@@ -354,11 +351,11 @@ header{
         overflow-wrap: break-word;
     }
 
-    .typography-offers-eyebrow{
+    .typography-offers{
         font-size: 2.2rem;
     }
     
-    .typography-headline-reduced{
+    .typography-headline{
         font-size: 3.2rem;
     }
     
@@ -369,7 +366,7 @@ header{
 
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 767px) {
     .offers-container {
         align-items: stretch;
         flex-direction: column;
@@ -384,11 +381,11 @@ header{
         width: 100%;
     }
 
-    .typography-offers-eyebrow{
+    .typography-offers{
         font-size: 2.0rem;
     }
     
-    .typography-headline-reduced{
+    .typography-headline{
         font-size: 2.8rem;
     }
     
@@ -415,7 +412,6 @@ header{
     text-align: left;
 }
 
-/* Default footer styles */
 .footer {
     background-color: #f0f0f0;
     padding: 2rem 0;
@@ -434,7 +430,6 @@ header{
     font-size: 1.4rem;
 }
 
-/* Responsive adjustments */
 @media screen and (max-width: 1068px) {
     .footer-content {
         padding: 0 1.5rem;
@@ -445,7 +440,7 @@ header{
     }
 }
 
-@media screen and (max-width: 735px) {
+@media screen and (max-width: 767px) {
     .footer-content {
         padding: 0 1rem;
     }
@@ -455,7 +450,7 @@ header{
     }
 }
 
-
+/* Moved to bottom for responsive adjustments */
 
 .hero{
     height: 65rem;
@@ -469,7 +464,6 @@ header{
 .main-page{
     border-top: none;
 }
-
 
 @media screen and (max-width: 1068px){
 .iphone-14-pro{
@@ -495,7 +489,6 @@ header{
 .airpods-pro{
     background: url("../images/airpodspro_medium.jpg");
 }
-
 
 .hero{
     height: 69.2rem;
@@ -523,7 +516,7 @@ header{
 }
 }
 
-@media screen and (max-width: 727px){
+@media screen and (max-width: 767px){
     header{
         height: 4.8rem;
         transition: background .36s cubic-bezier(0.32, 0.08, 0.24, 1),
@@ -682,9 +675,6 @@ header{
 
         
     }
-}
-
-@media screen and (max-width: 735px){
 
     .iphone-14-pro{
         background:url("../images/iphone_14pro_small.jpg");
